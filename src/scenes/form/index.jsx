@@ -13,6 +13,11 @@ const initialValues = {
     address2: "",
 }
 
+const phoneRegExp = /^(\+?6?01)[0-46-9]-*[0-9]{7,8}$/;
+const emailRegExp = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
+
+
+
 const userSchema = yup.object().shape({
     firstName: yup.string().required("First Name is required"),
     lastName: yup.string().required("Last Name is required"),
