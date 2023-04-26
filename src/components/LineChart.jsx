@@ -3,7 +3,7 @@ import { tokens } from '../theme';
 import { useTheme } from '@mui/material';
 import { mockLineData as data } from '../data/mockData';
 
-const LineChart = ( isDashboard = false) => {
+const LineChart = (isDashboard = false) => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
 
@@ -37,14 +37,14 @@ const LineChart = ( isDashboard = false) => {
                         fill: colors.grey[100],
                     }
                 },
-                tooltip    : {
+                tooltip: {
                     container: {
                         color: colors.primary[500],
                     },
                 },
 
             }}
-            colors={  isDashboard ? {datum: "color"} : {scheme: 'nivo'}}
+            colors={isDashboard ? { datum: "color" } : { scheme: 'nivo' }}
             margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
             xScale={{ type: 'point' }}
             yScale={{
@@ -63,16 +63,17 @@ const LineChart = ( isDashboard = false) => {
                 tickSize: 5,
                 tickPadding: 5,
                 tickRotation: 0,
-                legend: 'transportation',
+                legend: isDashboard ? undefined : 'transportation',
                 legendOffset: 36,
                 legendPosition: 'middle'
             }}
             axisLeft={{
                 orient: 'left',
                 tickSize: 5,
+                tickValues: 5,
                 tickPadding: 5,
                 tickRotation: 0,
-                legend: 'count',
+                legend: isDashboard ? undefined : 'count',
                 legendOffset: -40,
                 legendPosition: 'middle'
             }}
