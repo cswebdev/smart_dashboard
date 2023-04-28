@@ -69,5 +69,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [match-sorter](https://github.com/kentcdodds/match-sorter)
 - [localForage](https://localforage.github.io/localForage/)
 - [GitHub Pages](https://pages.github.com/)
-- [React-Sidebar-Pro] (https://www.npmjs.com/package/react-pro-sidebar/)
+- (https://www.npmjs.com/package/react-pro-sidebar/)
 
