@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/smart_dashboard/static/css/main.30e0faac.css",
-    "main.js": "/smart_dashboard/static/js/main.78eb7f10.js",
+    "main.js": "/smart_dashboard/static/js/main.00fed001.js",
     "static/media/user.png": "/smart_dashboard/static/media/user.1f129ed99c0e634a2fd3.png",
     "index.html": "/smart_dashboard/index.html",
     "main.30e0faac.css.map": "/smart_dashboard/static/css/main.30e0faac.css.map",
-    "main.78eb7f10.js.map": "/smart_dashboard/static/js/main.78eb7f10.js.map"
+    "main.00fed001.js.map": "/smart_dashboard/static/js/main.00fed001.js.map"
   },
   "entrypoints": [
     "static/css/main.30e0faac.css",
-    "static/js/main.78eb7f10.js"
+    "static/js/main.00fed001.js"
   ]
 }
