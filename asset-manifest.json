@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/smart_dashboard/static/css/main.30e0faac.css",
+    "main.js": "/smart_dashboard/static/js/main.6b2458c5.js",
+    "static/media/user.png": "/smart_dashboard/static/media/user.1f129ed99c0e634a2fd3.png",
+    "index.html": "/smart_dashboard/index.html",
+    "main.30e0faac.css.map": "/smart_dashboard/static/css/main.30e0faac.css.map",
+    "main.6b2458c5.js.map": "/smart_dashboard/static/js/main.6b2458c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e0faac.css",
+    "static/js/main.6b2458c5.js"
+  ]
+}
