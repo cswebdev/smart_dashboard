@@ -15,6 +15,7 @@ import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
+import root from "./index.js";
 
 function App() {
    const [theme, colorMode] = useMode();
@@ -29,7 +30,8 @@ function App() {
                <main className="content">
                   <Topbar setIsSidebar={setIsSidebar} />
                   <Routes>
-                     <Route path="/" index element={<Dashboard />} />
+                     <Route path="/" element={<root />} />
+                     <Route path="/dashboard" element={<Dashboard />} />
                      <Route path="/team" element={<Team />} />
                      <Route path="/contacts" element={<Contacts />} />
                      <Route path="/invoices" element={<Invoices />} />
