@@ -40,7 +40,6 @@ function App() {
                      <Route path="/faq" element={<FAQ />} />
                      <Route path="/calendar" element={<Calendar />} />
                      <Route path="/geography" element={<Geography />} />
-                     <Route path="/dashboard" index element={<Dashboard />} />
                   </Routes>
                </main>
             </div>
